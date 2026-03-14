@@ -10,10 +10,11 @@ def Random_numbers():
 def length_of_list(numbers):
 
     count = 0
-    for count in numbers:
+    for number in numbers:
         count += 1
 
     return count
+
 
 
 
@@ -54,7 +55,9 @@ def multiply_elements_at_third_position(numbers):
             product *= value
         counter +=1
 
-   return product
+    return product
+
+
 
 def average_of_numbers(numbers):
 
@@ -65,6 +68,7 @@ def average_of_numbers(numbers):
     average = total / length_of_list(numbers)
 
     return average
+
 
 
 def get_largest_number(numbers):
